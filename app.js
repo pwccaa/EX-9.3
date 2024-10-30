@@ -12,8 +12,8 @@ document.getElementById("submitBtn").addEventListener('click', function() {
         newTask.className = 'task';
         newTask.textContent = taskText;
 
-        deleteBtn.className = 'delete-button'
-        editBtn.className = 'edit-button'
+        deleteBtn.className = 'delete-button';
+        editBtn.className = 'edit-button';
 
         deleteBtn.innerHTML = '<i class="fas fa-trash-alt"></i>';
         editBtn.innerHTML = '<i class="fas fa-edit"></i>';
@@ -21,7 +21,7 @@ document.getElementById("submitBtn").addEventListener('click', function() {
         taskContainer.appendChild(newTask);
         taskInput.value = '';
 
-        newTask.appendChild(deleteBtn)        
-        newTask.appendChild(editBtn)        
+        newTask.appendChild(deleteBtn);        
+        newTask.appendChild(editBtn);
     }
 });
