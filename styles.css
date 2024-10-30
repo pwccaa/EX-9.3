@@ -1,0 +1,46 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    width: 50%;
+    height: 50%;
+    margin: auto; 
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.header-center {
+    display: flex;
+    justify-content: center;
+}
+
+.delete-button, .edit-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.delete-button i, .edit-button i {
+    font-size: 16px;
+    color: #333;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15%;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
