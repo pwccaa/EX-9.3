@@ -32,13 +32,17 @@ body {
     color: #333;
 }
 
+.task-container {
+    
+}
+
 .task {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 15%;
     width: 100%;
-    max-width: 500px;
+    max-width: 150px;
     padding: 10px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;

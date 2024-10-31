@@ -1,5 +1,4 @@
-document.getElementById("submitBtn").addEventListener('click', function() {
-    console.log("botao");
+function addTask() {
     const taskInput = document.getElementById("task-input");
     const taskText = taskInput.value;
 
@@ -24,4 +23,5 @@ document.getElementById("submitBtn").addEventListener('click', function() {
         newTask.appendChild(deleteBtn);        
         newTask.appendChild(editBtn);
     }
-});
+}
+document.getElementById("submitBtn").addEventListener('click', addTask);
