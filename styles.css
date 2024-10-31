@@ -1,5 +1,5 @@
 body {
-    background-color: blanchedalmond;
+    background-color: #e6e6e6;
 }
 
 .center-container {
@@ -7,12 +7,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: azure;
     width: 50%;
     height: 50%;
     margin: auto; 
     padding-bottom: 10%;
     padding-top: 5%;
+    gap: 24px;
 }
 
 .header-center {
@@ -32,19 +32,34 @@ body {
     color: #333;
 }
 
-.task-container {
-    
+ #task-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .task {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 15%;
-    width: 100%;
-    max-width: 150px;
+    width: 250px;
     padding: 10px;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 5px;
+}
+
+.task-para{
+    flex-grow: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#task-input{
+    width: 225px;
+    height: 25px;
+}
+
+#submitBtn {
+    height: 30px;
 }
